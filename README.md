@@ -1,14 +1,48 @@
-# What is Express.js?
-Express.js is a Node js web application server framework, which is specifically designed for building single-page, multi-page, and hybrid web applications.
 
-It has become the standard server framework for node.js. Express is the backend part of something known as the MEAN stack.
+# part 1
 
-The MEAN is a free and open-source JavaScript software stack for building dynamic web sites and web applications which has the following components :
+* changed the route from "/" to "/test"
 
-* MongoDB - The standard NoSQL database
+* the route "/yourname". What happens?  --> displaying the message Cannot GET yourname
 
-* Express.js - The default web applications framework
+* Adding another line of code to handle a request to "/srivasavi" that displaying Hello from srivasavi!
 
-* Angular.js - The JavaScript MVC framework used for web applications
+* Change the port number 3333 to 2222 and its worked fine
 
-* Node.js - Framework used for scalable server-side and networking applications.
+# part 2
+
+## In package.json 
+
+* start script call is :"node ./bin/www" 
+
+* folder is it looking in :bin 
+
+* name of the file :www
+
+* the default port number :3000
+
+* Accessing myapp at localhost:3000 in mybrowser.Its diaplaying :
+
+* <h1> Welcome</h1>
+
+* welcome to Express
+
+# part 3
+
+* In my.gitignore added one line:  node_modules
+
+* Created a short, professional README.md. and updating it
+
+* push the chages to empty myapp repo
+
+# part 4
+
+* pug engine used be called .jade files 
+
+* we need to update index.jade page to say "I love Express"
+
+* we need to update the index.js file to set the title to "Disneyland" so the paragra[h reads the "I love Disneyland"
+
+* As a additional change i added the background color to my web page and its worked fine
+
+* later push the all chages to git 
