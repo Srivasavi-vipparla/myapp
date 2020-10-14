@@ -9,6 +9,8 @@
 
 * Change the port number 3333 to 2222 and its worked fine
 
+* the reason for using backticks for the log string : for multi-line strings
+
 # part 2
 
 ## In package.json 
