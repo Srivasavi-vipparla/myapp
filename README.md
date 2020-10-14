@@ -23,7 +23,7 @@
 
 * Accessing myapp at localhost:3000 in mybrowser.Its diaplaying :
 
-* <h1> Welcome</h1>
+* <h3> Welcome</h3>
 
 * welcome to Express
 
@@ -41,7 +41,7 @@
 
 * we need to update index.jade page to say "I love Express"
 
-* we need to update the index.js file to set the title to "Disneyland" so the paragra[h reads the "I love Disneyland"
+* we need to update the index.js file to set the title to "Disneyland" so the paragraph reads the "I love Disneyland"
 
 * As a additional change i added the background color to my web page and its worked fine
 
